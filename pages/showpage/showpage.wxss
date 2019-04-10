@@ -1,0 +1,26 @@
+/**index.wxss**/
+.body{
+  width: 96%;
+  padding: 2%;
+}
+.nei{
+  width: 100%;
+  padding-top: 5px;
+}
+.imgbody{
+  width: 100%;
+  max-height: 180px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.html-img{
+  width: 100%;
+}
+.context{
+  width: 100%;
+  position: relative;
+  top: -35px;
+  left: 10px;
+  color: white;
+  font-size: 20px;
+}

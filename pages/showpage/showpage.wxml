@@ -1,0 +1,11 @@
+<view class='body'>
+  <navigator url="../H5pages/H5pages?url={{item.id}}" class="item weui-media-box weui-media-box_appmsg" wx:for="{{list}}" wx:key="list" wx:for-item="item"  hover-class="none" >
+    <view class='nei'>
+        <view class='imgbody'>
+            <image class='html-img' src='https://maguangjie.com/images/wx/{{item.imgSrc}}'></image>
+        </view>
+        <text class='context'>{{item.name}}</text>
+    </view>
+</navigator> 
+ </view> 
+

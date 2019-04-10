@@ -1,0 +1,32 @@
+
+
+<view class="cu-form-group margin-top">
+    <view class='title'>名称</view>
+    <input bindinput ="name" placeholder="您的名称" class='radius' name='input'></input>
+  </view>
+
+  <view class="cu-form-group margin-top" wx:hide="{{modalName==null}}">
+    <textarea bindinput ="text" placeholder="您的内容" maxlength="-1" disabled="{{modalName!=null}}" placeholder-class='placeholder'></textarea>
+  </view>
+
+<view  class="padding">
+  <button class='cu-btn block bg-blue margin-tb-sm lg' 
+   bindtap='subMess'>发表</button>
+</view>
+
+
+<view class="cu-modal {{modalName=='Image'?'show':''}}">
+  <view class="cu-dialog">
+    <view class="bg-img" style="background-image: url('../../images/good.jpg');height:200px;">
+      <view class="cu-bar justify-end none-bg text-white">
+        <view class='action' bindtap='hideModal'>
+          <text class='icon-close '></text>
+        </view>
+      </view>
+    </view>
+    <view class="cu-bar">
+      <view class='action margin-0 flex-sub  solid-left' bindtap='hideModal'>{{tt}}</view>
+    </view>
+  </view>
+</view>
+

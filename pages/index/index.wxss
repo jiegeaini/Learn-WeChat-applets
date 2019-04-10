@@ -1,0 +1,12 @@
+/**index.wxss**/
+
+.slide-image {
+  width:100%;
+}
+.body{
+  width: 100%;
+  background-color: white;
+}
+.nei{
+  width: 100%;
+}
